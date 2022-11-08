@@ -1,0 +1,78 @@
+Q4. In what all domains can we use Python?
+machine learning
+data analysis
+data engineering
+front end/back end web developmeent
+app development
+hacking (pretty cool)
+
+Q5. What are variable and how can we declare them?
+Variables are place holders for holding any value in memory.
+we can declare these variables by giving a name for example,
+if i want to store a value of 5, then i can assign a variable number = 5 (assignment is usually done using a '=' operator)
+which is also called as assignment operator 
+
+Q6. How can we take an input from the user in Python?
+we can take input from Python using In Built Python functiona i.e. input()
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+Default data type is always a String.
+
+Q8. What is type casting?
+Type casting is if I want to convert an Integer value to float or an Integer value to String.
+For example, let say I have a variable num = 6
+if i want to check the type of this variable, i can use Type() fucntion which will be Integer.
+Now if i want to convert the value of varaible num to String, then i can Type cast this variable.
+i.e. num = str(num)
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+We can take multiple inputs in Python using either Split() function or List comprehension.
+
+Q10. What are keywords?
+These are in built words for example, like True or False, If/Else/Elif/Break/Continue/return/and/or/not etc..
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+No, Variables are used for storing values.Keywords have special meaning and are reserved to do specific tasks.
+
+Q12. What is indentation? What's the use of indentaion in Python?
+It tells what is a block of code.
+for example:
+if num == 5:
+   print ("Hie") ---> this is indentation meaning starting from If statement to brackets..it is one piece of code.
+
+Q13. How can we throw some output in Python?
+Output to python can be thrown via Print() function.
+
+Q14. What are operators in Python?
+Operators are used for doing maths functions. example +,-,*,/,% these are all operators.
+
+Q15. What is difference between / and // operators?
+'/' gives the Float division. For example: 19/2 = 9.5
+'//' gives the floor division means it kinds of round off the value. For example: 91/2 = 9
+
+Q18. What are boolean operator?
+Boolean operatores are True or False.
+
+```
+
+Q20. What are conditional statements in Python?
+conditions are used for testing any particular test screnario.
+for example: if i bring more then 45 marks in exam, then i will pass the exam or else fail the exam.
+Condition : passing marks should be >= 45.
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+if -> if 'condition' -> then do this
+else -> if 'condition' satisfies, then execute
+        else:
+             execute something else.
+
+elif -> 
+if mood == 1:
+   print("very good")
+elif mood == 2:
+   print("not that good")
+elif mood == 3:
+   print("stop it")
+else:
+   print("boring life")
+```
